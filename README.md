@@ -14,6 +14,7 @@ This should be able to solve any Metro sudoku but fails with the Evening Standar
 To add a new sudoku, open the 'blank' sudoku text file. You should have a 9x9 tab-separated values file containing a matrix of zeros. Change the known number (from 0 to 1:9) and save the file with a meaningful name. 
 
 `sdko = create_sudoku_state("metro_easy_220401.txt")`
+
 `sdko = solve_sudoku(sdko)`
 
 
